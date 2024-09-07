@@ -20,6 +20,8 @@ public class Main {
             }
         };
 
+        // 코드 순서대로가 아닌 동시에 실행된다.
+
         Thread thread1 = new Thread(task);
         thread1.setName("thread1");
         Thread thread2 = new Thread(task2);
