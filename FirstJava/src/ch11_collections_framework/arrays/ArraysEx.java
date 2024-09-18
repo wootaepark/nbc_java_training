@@ -41,7 +41,6 @@ public class ArraysEx {
         String[][] str2D = new String[][]{{"aaa","bbb"},{"ccc","ddd"}};
         String[][] str2D2 = new String[][]{{"aaa","bbb"},{"ccc","ddd"}};
 
-
         System.out.println(Arrays.equals(str2D, str2D2)); // 주소값을 비교하게 되므로 무조건 false 가 된다.
         System.out.println(Arrays.deepEquals(str2D, str2D2));
 
